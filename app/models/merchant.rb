@@ -32,7 +32,6 @@ class Merchant <ApplicationRecord
                     end
     sorted_hash = hash.sort_by { |name, avg_rtg| avg_rtg }
     sorted_hash.last(3)
-    # binding.pry
   end
 
 end
